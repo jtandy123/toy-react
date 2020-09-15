@@ -72,6 +72,9 @@ export class Component {
 
     oldRange.setStart(range.endContainer, range.endOffset);
     oldRange.deleteContents();
+
+    // this._range.deleteContents();
+    // this[RENDER_TO_DOM](this._range);
   }
 
   setState(newState) {
